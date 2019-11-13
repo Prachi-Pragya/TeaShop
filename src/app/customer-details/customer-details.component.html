@@ -1,0 +1,28 @@
+
+<form class="example-container">
+        <div>
+                <mat-form-field>
+                  <input matInput placeholder="CustomerName">
+                 <mat-icon matSuffix>perm_identity</mat-icon>
+                </mat-form-field>
+              </div>
+              <div>
+                <mat-form-field>
+                  <input matInput placeholder="Phone number" required>
+                  <mat-icon matSuffix>phone</mat-icon>
+                 </mat-form-field>
+              </div>
+              <div>
+                <mat-form-field>
+                  <input matInput placeholder="Reward Points">
+                  <mat-icon matSuffix>star</mat-icon>
+                </mat-form-field>
+              </div>
+                
+                 <div>
+                <mat-card-actions >
+                 <button mat-raised-button (click)="createCustomer()"  color="primary" >save</button>
+                 </mat-card-actions>
+                 </div>
+                
+        </form>
