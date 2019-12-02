@@ -8,7 +8,7 @@ import { LoginScreenComponent } from './login-screen/login-screen.component';
 
 const routes: Routes = [
   
- {path:'save', component: CustomerDetailsComponent},
+ {path:'user', component: CustomerDetailsComponent},
  { path: 'login', component: LoginScreenComponent },
  {path : '', component : LoginScreenComponent}
  

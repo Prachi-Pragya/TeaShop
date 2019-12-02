@@ -16,8 +16,9 @@ export class LoginScreenComponent implements OnInit {
   }
  login(): void{
   if(this.username == 'admin' && this.password == 'admin'){
-    this.router.navigate(["save"]);
-   }else {
+    this.router.navigate(["user"]);
+   }
+   else {
      alert("Invalid credentials");
    }
  }
