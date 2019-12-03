@@ -1,0 +1,24 @@
+<div class="container">
+    <h3>List All Students</h3>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">MobileNo</th>
+          <th scope="col">Name</th>
+          <th scope="col">RewardPoints</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of studentsData">
+          <td>{{item.mobileNo}}</td>
+          <td>{{item.customerName}}</td>
+          <td>{{item.rewardPoints}}</td>
+        
+          <td style="display: flex">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+  </div>

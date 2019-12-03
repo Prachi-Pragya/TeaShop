@@ -11,7 +11,9 @@ import {FormsModule} from '@angular/forms';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import {MatIconModule} from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import  { HttpClientModule } from '@angular/common/http';
+import  { HttpClientModule  } from '@angular/common/http';
+import { ShowDataComponent } from './show-data/show-data.component';
+// { HttpHeaders} from 'angular/HttpHeaders'
 
 
 
@@ -22,7 +24,8 @@ import  { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     LoginScreenComponent,
-    CustomerDetailsComponent
+    CustomerDetailsComponent,
+    ShowDataComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,7 @@ import  { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     FormsModule,
     MatProgressSpinnerModule,MatToolbarModule,
-    MatIconModule,BrowserAnimationsModule,   HttpClientModule,
+    MatIconModule,BrowserAnimationsModule,   HttpClientModule
     
 
     
